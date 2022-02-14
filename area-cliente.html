@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area do Cliente</title>
+    <link rel="shortcut icon" href="Imagens/LOGO3 sublogo branca.png">
+    <link href='http://fonts.cdnfonts.com/css/glacial-indifference-2' rel='stylesheet' type='text/css'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link href="style/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://formden.com/static/cdn/formden.js"></script>
+
+    <!-- Special version of Bootstrap that is isolated to content wrapped in .bootstrap-iso -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+    <!--Font Awesome (added because you use icons in your prepend/append)-->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}</style>
+
+</head>
+<body>
+    <form method="post">
+        <hearder id="nav-placeholder"></hearder>
+        <main>
+            <div class="container consultorio-mn" id="consultorio">
+                <div class="row py-2">
+                    <div class="col-lg-12 title-box">
+                        <span class="sob-title text-title-h3">Consultório</span>
+                    </div>
+                </div>
+                
+                <div class="row py-2">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img id="img1" src="Imagens/consultorio.png" class="consultorio" />
+                        <a id="ref-reserva" class="overlay" href="#">
+                            <h1 class="text-title-h1">Reserve seu Horário</h1>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img id="img2" src="Imagens/doctor.png" class="consultorio" />
+                        <a class="overlay" href="#">
+                            <h1 class="text-title-h1">Histórico de Consultas</h1>
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img id="img3" src="Imagens/dente.png" class="consultorio" />
+                        <a class="overlay" href="#">
+                            <h1 class="text-title-h1" style="padding: 125px 40px 20px;">Portfólio</h1>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center" style="padding-top: 4em">
+                        <p class="text-aux ">Conheça as vantagens de utilizar nosso produto</p>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center" style="padding-bottom: 24px">
+                        <button class="button_pill" type="button">Planos</button>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="row"></div>
+            </div>
+            
+            <div class="container" id="reserva">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 reserva">
+                        <h1 class="text-title-horarios">Disponibilidade</h1>
+                        <div class="form-group row text-center">
+                            <div class="col-lg-3">
+                                <input class="form-control" type="date" id="date"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabela-horarios" class="row">
+                    
+                </div>
+                <button class="button_pill" id="bt" type="button">Planos</button>
+            </div>
+            <div class="container"></div>
+            <div class="container"></div>
+
+        </main>
+        <footer id="footer-placeholder"></footer>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>    
+    <script src="js/script.js"></script>
+    <script src="js/script-cliente.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include Date Range Picker -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+</body>
+</html>

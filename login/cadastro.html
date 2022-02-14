@@ -1,0 +1,79 @@
+<div class="container">
+    <div id="box-cadastro">
+        
+        <div class="row py-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <h1 class="text-login-h1">Cadastro</h1>
+            </div>
+        </div>
+        <div id="credenciais" class="container-credenciais">
+            <div class="row py-2">
+                <div class="col-lg-12">
+                    <label class="label-cad">Login</label>
+                    <input id="txtLogin" type="text" class="form-control" required maxlength="20">
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-12">
+                    <label class="label-cad">E-mail</label>
+                    <input id="txtEmail" type="email" class="form-control" required>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-12">
+                    <label class="label-cad">
+                        Repetir Email
+                            <span id="repete_email" class="senha-quebrada">E-mails não conferem*</span>
+                    </label>
+                    <input id="txtEmailRepete" type="email" class="form-control" required>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-12">
+                    <label class="label-cad">
+                        Senha
+                            <span id="senha_quebrada" class="senha-quebrada">Senha fraca, cumpra os requisitos*</span>
+                    </label>
+                    <input id="txtSenha" type="password" class="form-control" required maxlength="20"><br>
+                    <div class="box-requisitos">
+                        <span class="text-aux">A sua senha deve ser composta por:</span><br>
+                        <span>Letras minúsculas, maiúsculas , número e símbolos.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-lg-12">
+                    <label class="label-cad">
+                        Repita Senha
+                            <span id="repete_senha" class="senha-quebrada">Senhas não conferem*</span>
+                    </label>
+                    <input id="txtSenhaRepete" type="password" class="form-control" required maxlength="20">
+                    
+                </div>
+            </div>
+
+            <div class="row py-2">
+                <div class="col-lg-12 col-md-12 col-sm-12 px-8">
+                    <input id="cbxTermoCompromisso" type="checkbox" required class="form-check-input">
+                    <label class="text-aux" for="cbxTermoCompromisso">Aceite os termos de compromisso</label>
+                </div>
+            </div>
+            
+
+
+            <!--div class="row py-2">
+                <div class="col-lg-12">
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                </div>
+            </div-->
+
+            <div class="row py-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <button id="Confimar" class="button_pill-login" onclick="CadastroCredenciais()" type="button">Confirmar</button>
+                </div>
+            </div>
+
+            <div></div>
+        </div>
+    </div>  
+</div>
